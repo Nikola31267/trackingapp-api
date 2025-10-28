@@ -19,7 +19,7 @@ app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ limit: "50mb", extended: true }));
 
 const restrictedCorsOptions = {
-  origin: ["http://localhost:3000"],
+  origin: ["https://tracking-app-steel.vercel.app"],
   credentials: true,
 };
 
